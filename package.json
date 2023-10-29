@@ -1,0 +1,25 @@
+{
+  "name": "nwg",
+  "version": "1.0.9",
+  "description": "Node Workspace Generator",
+  "bin": {
+    "nwg": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node", "workspace", "generator", "monorepos"],
+  "author": "Christian Ipanaque",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianengineer/nwg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christianengineer/nwg/issues"
+  },
+  "homepage": "https://github.com/christianengineer/nwg#readme"
+}
