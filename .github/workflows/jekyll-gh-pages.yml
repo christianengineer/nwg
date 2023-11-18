@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: gh-pages # Specify the 'gh-pages' branch
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
