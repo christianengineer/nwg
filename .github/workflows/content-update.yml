@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: website # Specify the 'website' branch
+          ref: gh-pages # Specify the 'gh-pages' branch
           token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
 
       - name: Set up Python
@@ -49,4 +49,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
-          branch: website
+          branch: gh-pages
